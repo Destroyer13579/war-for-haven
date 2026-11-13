@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceName": "WarForHaven",
+  "lastUpdated": "2026-11-13T02:01:42Z",
+  "mods": {
+    "war-for-haven": {
+      "displayName": "War For Haven",
+      "description": "Haven City becomes a three-way war between the Freedom League, the KG Death Bots and the Metal Heads, Battlefront style. Hundreds of soldiers fight over 21 command posts across the whole city, and you fight in it as a Freedom League soldier (Rifleman, Tazer or Grenadier), alone or with a friend in online co-op.",
+      "authors": [
+        "Destroyer13579"
+      ],
+      "tags": [
+        "gameplay-mod",
+        "co-op"
+      ],
+      "supportedGames": [
+        "jak3"
+      ],
+      "websiteUrl": "https://github.com/Destroyer13579/war-for-haven",
+      "coverArtUrl": null,
+      "thumbnailArtUrl": null,
+      "perGameConfig": {
+        "jak3": {
+          "releaseDate": "2026-11-13T02:01:42Z"
+        }
+      },
+      "externalLink": null,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishedDate": "2026-11-13T02:01:42Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "settings": {
+            "decompConfigOverride": "",
+            "shareVanillaSaves": false
+          },
+          "assets": {
+            "windows": "https://github.com/Destroyer13579/war-for-haven/releases/download/v1.0.0/windows-v1.0.0.zip",
+            "linux": null,
+            "macos": null
+          }
+        }
+      ]
+    }
+  },
+  "texturePacks": {}
+}

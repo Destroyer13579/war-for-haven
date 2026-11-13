@@ -103,8 +103,23 @@ click **Allow**: co-op needs it.
 
 ## Co-op
 
-One player hosts the war and the other joins it. Your PCs connect over a free virtual network both of you run:
-[Radmin VPN](https://www.radmin-vpn.com) (recommended: no account, low lag) or LogMeIn Hamachi.
+One player hosts the war and the other joins it.
+
+### With Steam (easiest, best connection)
+
+1. Both players have **Steam** open and signed in, and are **friends on Steam**. (Steam shows you as playing
+   "Spacewar" while you play: that is how the game uses Steam's network.)
+2. The host starts the war and presses **Square** (F) on the deploy screen.
+3. The other player starts the war and presses **Triangle** (R) on the deploy screen. The game finds the Steam friend
+   who is hosting and joins over Steam's network: no VPN, no address, no open ports.
+
+If more than one Steam friend is hosting, put the host's Steam name in `coop.txt` (see below) and Triangle joins that
+one.
+
+### Without Steam (Radmin VPN or Hamachi)
+
+Your PCs connect over a free virtual network both of you run: [Radmin VPN](https://www.radmin-vpn.com) (recommended:
+no account, low lag) or LogMeIn Hamachi.
 
 **Once, both players:**
 1. Install Radmin VPN.
@@ -115,7 +130,7 @@ One player hosts the war and the other joins it. Your PCs connect over a free vi
 **To host:** nothing to set up. Start the war as usual, and on the deploy screen press **Square** (F). The co-op line
 says HOSTING, WAITING FOR A GUEST. When the other player is in, it shows their name and ping.
 
-**To join:** your game needs the host's address once.
+**To join (without Steam):** your game needs the host's address once.
 
 *Installed with the OpenGOAL launcher:*
 1. Press **Windows key + R**, type `%APPDATA%\OpenGOAL` and press **Enter**. A folder opens.
@@ -148,7 +163,8 @@ other player joins the host's public IP instead. Both players need the same vers
 | Fire | R1 | O |
 | Kneel and aim | L1 | Q |
 | Stand and aim | L2 | 1 |
-| Rifle butt (melee) | Square / Circle | F / E |
+| Reload | Square | F |
+| Melee (rifle butt) | Circle | E |
 | Call or dismiss your squad | Select | ' |
 | War map | L3 | , |
 | How the war works | R3 | . |

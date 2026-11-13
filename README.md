@@ -76,6 +76,8 @@ The [OpenGOAL launcher](https://opengoal.dev) installs War For Haven and keeps i
 
 New versions show up on the same page: click **Update**.
 
+Playing co-op from the launcher? Joining a friend takes one small text file: see [Co-op](#co-op) below.
+
 ## Install: zip
 
 1. Download `War-For-Haven-vX.Y.Z.zip` from the [latest release](../../releases/latest).
@@ -110,17 +112,25 @@ One player hosts the war and the other joins it. Your PCs connect over a free vi
 3. The other player joins it (Network > Join network). The host's PC now shows in the list with an address like
    `26.123.45.67`. That is the host's address.
 
-**To host:** start the war as usual, and on the deploy screen press **Square** (F). The co-op line says HOSTING,
-WAITING FOR A GUEST. When the other player is in, it shows their name and ping.
+**To host:** nothing to set up. Start the war as usual, and on the deploy screen press **Square** (F). The co-op line
+says HOSTING, WAITING FOR A GUEST. When the other player is in, it shows their name and ping.
 
-**To join:** first give the game the host's address.
-- Launcher: press **Windows key + R**, type `%APPDATA%\OpenGOAL` and press Enter. In that folder make a text file
-  named `coop.txt` with the host's address on its first line. (If Windows hides file extensions, name it just `coop`,
-  or it becomes `coop.txt.txt`.)
-- Zip: double-click **`3 - Join a Co-op War.bat`** and type the address once (it is saved). It starts the game.
+**To join:** your game needs the host's address once.
+
+*Installed with the OpenGOAL launcher:*
+1. Press **Windows key + R**, type `%APPDATA%\OpenGOAL` and press **Enter**. A folder opens.
+2. In it, right-click > **New** > **Text Document**, open it, type the host's address (like `26.123.45.67`) on the
+   first line, and save it.
+3. Name the file `coop.txt`. If your other files don't show ".txt" at the end of their names, Windows is hiding
+   extensions: then name it just `coop` (otherwise it becomes `coop.txt.txt` and the game won't find it).
+4. Start War For Haven from the launcher as usual.
+
+*Installed from the zip:* double-click **`3 - Join a Co-op War.bat`**, type the host's address once (it is saved), and
+it starts the game.
 
 Then start the war, and on the deploy screen, once the host is hosting, press **Triangle** (R). The co-op line says
-JOINING, then IN ...'S WAR with a ping.
+JOINING, then IN ...'S WAR with a ping. To join someone else later, change the address in the file (or run the `.bat`
+again).
 
 Circle (E) leaves co-op. Without a virtual network, the host can forward UDP port **26210** on their router and the
 other player joins the host's public IP instead. Both players need the same version of War For Haven.

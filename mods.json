@@ -17,13 +17,13 @@
         "jak3"
       ],
       "websiteUrl": "https://github.com/Destroyer13579/war-for-haven",
-      "coverArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/cover.png",
-      "thumbnailArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/thumbnail.png",
+      "coverArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/war-for-haven-cover.png",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/war-for-haven-thumbnail.png",
       "perGameConfig": {
         "jak3": {
           "releaseDate": "2026-11-13T02:01:42Z",
-          "coverArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/cover.png",
-          "thumbnailArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/thumbnail.png"
+          "coverArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/war-for-haven-cover.png",
+          "thumbnailArtUrl": "https://raw.githubusercontent.com/Destroyer13579/war-for-haven/main/launcher-art/war-for-haven-thumbnail.png"
         }
       },
       "externalLink": null,

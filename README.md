@@ -1,6 +1,6 @@
 # War For Haven
 
-![War For Haven](launcher-art/cover.png)
+![War For Haven](launcher-art/war-for-haven-cover.png)
 
 **A Jak 3 mod for [OpenGOAL](https://opengoal.dev): Haven City becomes a three-way war between the Freedom League, the
 KG Death Bots and the Metal Heads, Battlefront style. Hundreds of soldiers fight over command posts across the whole

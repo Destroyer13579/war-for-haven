@@ -116,6 +116,10 @@ One player hosts the war and the other joins it.
 If more than one Steam friend is hosting, put the host's Steam name in `coop.txt` (see below) and Triangle joins that
 one.
 
+**Controller not working once you host or join over Steam?** Steam applies Spacewar's own controller layout to the game.
+Turn it off once: Steam > **Library** > **Spacewar** > right-click > **Properties** > **Controller** > **Disable Steam
+Input**, then restart War For Haven.
+
 ### Without Steam (Radmin VPN or Hamachi)
 
 Your PCs connect over a free virtual network both of you run: [Radmin VPN](https://www.radmin-vpn.com) (recommended:

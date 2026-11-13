@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "WarForHaven",
-  "lastUpdated": "2026-11-13T08:04:32Z",
+  "lastUpdated": "2026-11-13T23:31:48Z",
   "mods": {
     "war-for-haven": {
       "displayName": "War For Haven",
@@ -28,6 +28,22 @@
       },
       "externalLink": null,
       "versions": [
+        {
+          "version": "1.0.6",
+          "publishedDate": "2026-11-13T23:31:48Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "settings": {
+            "decompConfigOverride": "",
+            "shareVanillaSaves": false
+          },
+          "assets": {
+            "windows": "https://github.com/Destroyer13579/war-for-haven/releases/download/v1.0.6/windows-v1.0.6.zip",
+            "linux": null,
+            "macos": null
+          }
+        },
         {
           "version": "1.0.5",
           "publishedDate": "2026-11-13T08:04:32Z",

@@ -114,8 +114,10 @@ One player hosts the war and the other joins it. Your PCs connect over a free vi
 WAITING FOR A GUEST. When the other player is in, it shows their name and ping.
 
 **To join:** first give the game the host's address.
-- Launcher: on War For Haven's page, open the settings menu and choose **Open Settings Folder**. Make a text file named
-  `coop.txt` there with the host's address on its first line.
+- Launcher: install War For Haven, click **Play** once and close the game (that makes its settings folder). Then on
+  War For Haven's page click the **gear button** (next to Advanced) and choose **Open Settings Folder**. Make a text
+  file named `coop.txt` there with the host's address on its first line. (If Windows hides file extensions, name it
+  just `coop`, or it becomes `coop.txt.txt`.)
 - Zip: double-click **`3 - Join a Co-op War.bat`** and type the address once (it is saved). It starts the game.
 
 Then start the war, and on the deploy screen, once the host is hosting, press **Triangle** (R). The co-op line says

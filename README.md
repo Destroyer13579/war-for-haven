@@ -38,7 +38,7 @@ follow you, take posts, and when you go down, deploy again.
   - **Rifleman**: six shots, long reach.
   - **Tazer**: shock staff, deadly up close.
   - **Grenadier**: two grenades a load, breaks up crowds.
-- A squad of League guards that follows you when you call it (Select) and joins the attack when you dismiss it.
+- A squad of League guards that follows you when you call it (R2 or Select) and joins the attack when you dismiss it.
 - Three hits and you are down: pick a post and deploy again, as long as your side has posts and men.
 - Hellcats and League bikes, armed, for you and for the armies. The KG also send giant Blast Bots at enemy posts.
 
@@ -169,7 +169,7 @@ other player joins the host's public IP instead. Both players need the same vers
 | Stand and aim | L2 | 1 |
 | Reload | Square | F |
 | Melee (rifle butt) | Circle | E |
-| Call or dismiss your squad | Select | ' |
+| Call or dismiss your squad | R2 or Select | ' |
 | War map | L3 | , |
 | How the war works | R3 | . |
 | Pause | Start | Enter |
